@@ -1,5 +1,6 @@
 module.exports  = {
-    PrecioEmpleado: PrecioEmpleado
+    PrecioEmpleado: PrecioEmpleado,
+    
   }
 var empleado1 =0;
 var empleado2 =0;
@@ -34,5 +35,14 @@ function PrecioEmpleado()
   console.log('El costo de todo el proyecto es = $'+ costoTotal)
   console.log('La holgura del 8% es = $'+ holgura)
 
+  try {
+    console.log(empleado6);
+  }
+  catch (error) {
+    console.log("Error el : " + error.message);
+  }
+  
+  
 };
-    
+
+
